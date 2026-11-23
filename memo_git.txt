@@ -1,0 +1,4 @@
+Problème:*
+-> git status retourne "fatal: detected dubios ownership in repository ..."
+RESOLUTION:
+        -> git config --global --addf safe.directory '*'
